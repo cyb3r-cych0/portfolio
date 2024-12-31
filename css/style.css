@@ -617,6 +617,20 @@ width: 95%;
   transform: rotateY(0);
 }
 
+/* additional Features */
+.underline {
+  text-decoration: underline;
+}
+
+.checkmark-list li {
+  list-style-type: none; /* Remove default bullets */
+}
+
+.checkmark-list li:before {
+  content: "\2713"; /* Unicode for check mark */
+  padding-right: 5px; /* Space between check mark and text */
+}
+
 /* zoom */
 .txt-fx.zoom .letter {
   transform-origin: 50% 0;
