@@ -152,5 +152,16 @@
     initIsotope();
   })
 
+  // download cv
+  function downloadFile(url, fileName) {
+    // Create a temporary anchor element
+    const link = document.createElement('a');
+    link.href = url; // Set the file URL
+    link.download = fileName || 'downloaded-file'; // Set the download filename (optional)
+    document.body.appendChild(link); // Append the link to the DOM
+    link.click(); // Trigger the click event
+    document.body.removeChild(link); // Remove the link from the DOM
+  }
+  
 
 })(jQuery);

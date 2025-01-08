@@ -413,6 +413,11 @@ width: 95%;
 }
 
 
+/* icons */
+.section-header i {
+  font-size: 15px;
+}
+
 
 /* slide in */
 .slide-in .swiper-slide .banner-content h2,
