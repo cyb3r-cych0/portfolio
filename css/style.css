@@ -402,12 +402,16 @@ width: 75%;
 .skill-chart li .chart-percentage.eighty-percent {
 width: 80%;
 }
+.skill-chart li .chart-percentage.eighty-five-percent {
+  width: 85%;
+  }
 .skill-chart li .chart-percentage.ninety-percent {
 width: 90%;
 }
 .skill-chart li .chart-percentage.ninety-five-percent {
 width: 95%;
 }
+
 
 
 /* slide in */
