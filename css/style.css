@@ -679,3 +679,76 @@ ul {
     right: 0;
   }
 }
+
+/* CUSTOM CSS */
+.site-logo {
+  border-radius: 50%; /* Adjust value as needed (e.g., 12px) */
+  overflow: hidden;      /* Prevents child elements from overflowing rounded corners */
+}
+
+/* custom layout */
+.banner-image {
+  border-radius: 0.5rem; /* Adjust value as needed (e.g., 12px) */
+  overflow: hidden;      /* Prevents child elements from overflowing rounded corners */
+}
+
+/* custom layout */
+.banner-image-edu {
+  border-radius: 0.5rem; /* Adjust value as needed (e.g., 12px) */
+  overflow: hidden;      /* Prevents child elements from overflowing rounded corners */
+  box-shadow: 0 4px 6px 3px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.banner-image-edu>img {
+  /*height: 10vh;*/
+}
+
+.icon-box p {
+  /*background-color: antiquewhite;*/
+  border: 0.1rem solid white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  /*font-family: 'Lora', 'Georgia', serif;*/
+  /*font-size: 1.1rem;*/
+  /*line-height: 1.7;*/
+  /* Use Inter as primary, system-ui as high-speed fallback */
+  /*font-family: 'Inter Variable', 'Inter', system-ui, -apple-system, sans-serif;*/
+  /*font-weight: 400; !* Regular for body *!*/
+  /*font-size: 16px;*/
+  /*color: #f8f9fa; !* Light text on dark "tech" background *!*/
+  /*background-color: #0b0e14;*/
+  /*font-family: 'Archivo Black', sans-serif;*/
+  /*font-weight: 200;*/
+  /*text-transform: uppercase;*/
+  /*letter-spacing: -0.05em; !* Tightens the text for a "heavy" look *!*/
+  /*line-height: 1.5;        !* Stack lines closely *!*/
+  /*color: #000000;         !* Terminal Green *!*/
+  /*text-shadow: 0 0 10px rgba(0, 255, 65, 0.5); !* Glow effect *!*/
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: darkgreen; /* Soft gray for high-tech look */
+  line-height: 1.8;
+}
+
+.icon-box>span {
+  text-align-all: center;
+}
+
+.data-info {
+  border: 0.1rem solid white;
+  box-shadow: 0 4px 6px 3px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.experience {
+  border: 0.1rem solid white;
+  box-shadow: 0 4px 6px 3px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
