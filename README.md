@@ -1,7 +1,7 @@
-# Kevin Moriasi | cyb3r-cych0
+# Kevin M. M.
 
 ## About
-Welcome to my personal portfolio website! This site showcases some of my best work and provides an overview of my skills and experience as an aspiring Full-Stack Software Developer and Cybersecurity enthusiast
+Welcome to my personal portfolio website! This site showcases some of my best work and provides an overview of my skills and experiences.
 
 ## Website
 View my portfolio at:
